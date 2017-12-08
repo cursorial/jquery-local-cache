@@ -1,6 +1,6 @@
 {
   "name": "jquery-local-cache",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "jquery-local-cache allows you to cache data on the heap, it clears on page refresh, can be used for single page apps that need to cache more than webstorage allows",
   "main": "localCache.js",
   "scripts": {
@@ -12,7 +12,10 @@
   },
   "author": "cursorial",
   "license": "UNLICENSED",
-  "keywords": ["jquery-plugin", "ecosystem:jquery"],
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
   "bugs": {
     "url": "https://github.com/cursorial/local-cache/issues"
   },
