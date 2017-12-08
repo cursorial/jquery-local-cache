@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javscript" src="../localCache.js"></script>
+		<script type="text/javscript">
+			var testData = 'test-data';
+			var testFn = function(data) {
+				console.assert(data === testData);
+			}
+			$.localCache('set', 'test', {data: testData, callback: testFn});
+			var retrievedTestData = $.localCache('get', 'test');
+			console.assert(data === retrievedTestData);
+		</script>
+	</head>
+</html>
