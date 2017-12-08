@@ -32,5 +32,8 @@
 		            if(action === 'exists') {
 				                localCache.exists(url);
 				            }
+		    		if(action === 'getAll') {
+					return localCache.data;
+				}
 		        }
-})
+})(jQuery);

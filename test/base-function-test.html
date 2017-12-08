@@ -7,8 +7,8 @@
 			var testFn = function(data) {
 				console.assert(data === testData);
 			}
-			$.localCache('set', 'test', {data: testData, callback: testFn});
-			var retrievedTestData = $.localCache('get', 'test');
+			$(document).localCache('set', 'test', {data: testData, callback: testFn});
+			var retrievedTestData = $(document).localCache('get', 'test');
 			console.assert(data === retrievedTestData);
 		</script>
 	</head>
