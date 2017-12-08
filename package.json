@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cursorial/local-cache.git"
+    "url": "git+https://github.com/cursorial/jquery-local-cache.git"
   },
   "author": "cursorial",
   "license": "UNLICENSED",
@@ -17,7 +17,7 @@
     "ecosystem:jquery"
   ],
   "bugs": {
-    "url": "https://github.com/cursorial/local-cache/issues"
+    "url": "https://github.com/cursorial/jquery-local-cache/issues"
   },
-  "homepage": "https://github.com/cursorial/local-cache#readme"
+  "homepage": "https://github.com/cursorial/jquery-local-cache#readme"
 }
