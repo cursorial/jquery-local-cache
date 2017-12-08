@@ -1,6 +1,6 @@
 {
   "name": "jquery-local-cache",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "jquery-local-cache allows you to cache data on the heap, it clears on page refresh, can be used for single page apps that need to cache more than webstorage allows",
   "main": "localCache.js",
   "scripts": {
