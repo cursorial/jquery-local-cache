@@ -8,7 +8,7 @@ There are 4 functions currently available to you in this package.
 ### get
 Get an entry from the cache.
 ```javascript
-var cachedData = $.localCache('get', item);
+var cachedData = $(document).localCache('get', item);
 ```
 
 ### set
@@ -23,19 +23,19 @@ var options = {
 	callback: functionOnCompletion
 };
 
-$.localCache('set', item, options);
+$(document).localCache('set', item, options);
 ```
 
 ### remove
 Remove an entry from the cache.
 ```javascript
-$.localCache('remove', item)
+$(document).localCache('remove', item)
 ```
 
 ### exists
 Returns a boolean value -- if the item exists returns `true`, else returns `false` 
 ```javascript
-var itemDoesExist = $.localCache('exists', item);
+var itemDoesExist = $(document).localCache('exists', item);
 ```
 
 
