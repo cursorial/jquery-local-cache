@@ -14,7 +14,7 @@
 		            remove: function(url) {
 				                delete localCache.data[url];
 				            },
-		            exist: function(url) {
+		            exists: function(url) {
 				                return localCache.data.hasOwnProperty(url) && localCache.data[url] !== null;
 				            }
 		        };
